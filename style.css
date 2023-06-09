@@ -1,0 +1,170 @@
+*{
+	margin:2px;
+	padding:-5px;
+	box-sizing: border-box;
+	.audio{
+background-color:blue;
+width: 300px;
+heigth:100px;
+border-radius:20px;
+justify-content: center;
+display: flex;
+}
+
+.imagemVS{
+	width:300px;
+	height:350px;
+	border-radius:30px;
+	}
+}
+.imagemrael{
+	width: 360px;
+	height:200px;
+	border-radius:30px;
+	}
+	
+	.imagemgouvea{
+	width:250px;
+	height:300px;
+	border-radius:30px;
+		}
+	
+h1{
+
+  font-style: times new roman;
+}
+.botão1{
+	width:200px;
+	height:50px;
+	border-radius:15px;
+	background-color: #7a297a;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ .btn1{
+ 	width:110px;
+height:30px;
+font-weight: bold;
+font-size: 15px;
+background-color:#24062d;
+color:white;
+border-radius: 10px;
+	
+ }
+	
+	
+
+
+.botão2{
+width:200px;
+height:50px;
+border-radius: 15px;
+background-color: #24062d;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.btn2{ 
+width:110px;
+height:30px;
+border-radius:10px;
+font-weight: bold;
+font-size: 15px;
+color:white;
+background-color:#9d00e6;
+	
+	}
+
+body{ background: #ffffff;
+display: grid;
+      font: 16pt times new roman;
+	color:#ffffff ;
+	animation: back 2s infinite alternate linear;
+	}
+	
+	@media screen and (max-width: 768px){
+		
+		}
+
+
+@keyframes back {
+	
+	0%{
+		background-color: black;
+		}
+		25%{
+			background-color: #0099FF;
+			}
+		50%{
+			background-color: DarkTurquoise;
+			}
+			75%{
+		 background-color: Crimson;
+				}
+100%{
+	background-color: FireBrick;
+	}
+}
+
+	.gouvepombo{
+  	color: white;
+	 }
+
+  
+ 
+ .rael{
+ 	color: white;
+ 	
+	 }
+
+.name{
+	font: Times New Roman;
+	font-size: 20px;
+	display:flex;
+	justify-content: center;
+	background-color:black;
+	color: #7a297a;
+	border-top: 0px solid #FF00FF;
+	border-bottom: 0px solid #FF00FF;
+	border-radius: 15px;
+overflow: hidden;
+animation: text 3s linear infinite;
+}
+
+  
+  
+  @keyframes text{
+ 
+ 	0%{
+  	width: 0px;
+  height: 0px;
+  }
+  30%{
+  	width: 50px;
+  height: 0px;
+  }
+  
+ 60%{ 
+ 	width: 220px;
+ height: 40px;
+ }
+ 
+ 80%{
+ 	width: 220px;
+ height:30px; 
+ }
+ 
+ 100%{
+ 	width:0px;
+ height: 0px;
+
+ }
+ 
+
+ 
